@@ -46,13 +46,13 @@ The notebook reads the CSV version (`online_retail_II.csv`), which is not includ
 
 **5. Choosing k.** Elbow method over k = 1–10. The curve drops steeply to k = 2 and then flattens gradually, with no sharp elbow, so k = 4 was a judgement call: it was chosen because it gave four distinct, interpretable segments.
 
-![Elbow method for choosing k](images/elbow_method.png)
+![Elbow method for choosing k](elbow_method.png)
 
 **6. Profiling.** Mean RFM values per cluster, then business names for each segment (below).
 
-![Segments: recency vs. monetary](images/segments_recency_vs_monetary.png)
+![Segments: recency vs. monetary](segments_recency_vs_monetary.png)
 
-![Segments: frequency vs. monetary](images/segments_frequency_vs_monetary.png)
+![Segments: frequency vs. monetary](segments_frequency_vs_monetary.png)
 
 The segments overlap on these raw axes because the clustering was done on log-scaled, standardised values.
 
